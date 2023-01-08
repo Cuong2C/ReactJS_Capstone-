@@ -1,0 +1,18 @@
+li {
+  text-decoration: none;
+  color: black;
+}
+
+.detail {
+  width: 80%;
+  margin: auto;
+}
+.detail ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #e5e8ed;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin: 0 5px;
+}/*# sourceMappingURL=detail.css.map */

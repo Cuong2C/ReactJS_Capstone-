@@ -1,0 +1,62 @@
+.detail-top {
+    width: 80%;
+    margin: auto;
+    button {
+        margin-right: 10px;
+    }
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .pro-price {
+        margin: 15px 0 0 15px;
+    }
+    .button-detail {
+        margin: 15px;
+        background-color: black;
+    }
+    ul {
+        li {
+            list-style-type: none;
+                       
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #e5e8ed;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            margin: 0 5px;
+        }
+    }
+}
+
+.detail-container {
+    margin: auto;
+    @include responsive(extra-large) {
+        width: 95%;
+    }
+    @include responsive(small) {
+        width: 85%;
+    }
+    h1{
+        @include title();
+        @include responsive(extra-large) {
+            font-size: 50px;
+        }
+        @include responsive(medium) {
+            font-size: 35px;
+        }
+        @include responsive(small) {
+            font-size: 25px;
+            margin: 30px 0 20px;
+        }
+    }
+
+
+
+    .product-feature {
+        background-color: white;
+        border-radius: 15px;        
+    }
+}
+
+

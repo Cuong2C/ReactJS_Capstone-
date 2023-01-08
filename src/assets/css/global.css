@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 33.3333333333%;
+  padding: 0 20px;
+}
+.item .card-footer-custom {
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  line-height: 50px;
+  border-top: 1px solid #ccc;
+}
+.item .card-footer-custom-left {
+  width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+}
+.item .card-footer-custom-right {
+  width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #DEDDDC;
+}/*# sourceMappingURL=global.css.map */
