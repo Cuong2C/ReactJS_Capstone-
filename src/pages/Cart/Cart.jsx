@@ -1,6 +1,13 @@
 import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import CartTable from "./CartTable";
+import {
+  addToCart,
+  checkAll,
+  checkItem,
+  deleteCartItem,
+  sendOrderApi,
+} from "../../redux/reducers/cartReducer";
 
 const Cart = () => {
   const { cartData } = useSelector((store) => store.cartData);
